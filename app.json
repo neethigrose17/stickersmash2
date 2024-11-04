@@ -13,13 +13,15 @@
       "backgroundColor": "#25292e"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neethigrose17.StickerSmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.neethigrose17.StickerSmash"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a872e776-b2ad-4d10-a6b2-61c3e1019a85"
+      }
+    },
+    "owner": "neethigrose17"
   }
 }
